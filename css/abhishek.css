@@ -1,0 +1,212 @@
+body{
+    margin: auto;
+}
+.a_tbdr{
+    border: 1px dashed red;
+}
+
+.a_headertop{
+    height: 57px;
+    background-color: #2874F0;
+}
+.a_text_fixed{
+  margin-top: -6px;
+  margin-right:5px !important;
+  padding: 0px;
+  font-size: 0.7em;
+}
+.plus{
+  width: 10px;
+  height: 10px;
+  margin-top: 2px;
+}/* 
+.a_position{
+  position: relative;
+}
+.a_search{
+  position: absolute;
+  top:60px;
+  left: 10px;
+} */
+.a_header_bottom{
+        margin-top: 57px;
+        border-bottom: 1px solid rgba(207,208,211,0.5);
+    }
+    .a_header_bottom a{
+        display: block;
+        width: 200px;
+        height: 129px;
+        /*
+          background: bg-color bg-image position/bg-size bg-repeat bg-origin bg-clip bg-attachment initial|inherit;
+        */
+        
+    }
+.a_headerbottom{
+    margin-top: 57px;
+    height: 113px;
+    border-bottom: 1px solid rgba(94, 95, 99, 0.5);
+}
+.a_headerbottom a{
+        display: block;
+        width: 200px;
+        height: 129px;
+}
+.a_main{
+    height: 10000px;
+}
+.a_footer{
+    background-color: #172337;
+    padding: 0px !important;
+}
+.a_footertop{
+    height: 273px;
+}
+.a_footerbottom{
+    height: 70px;
+}
+.white{
+    color:#fff;
+}/* 
+.a_font_awsome{
+  display: block;
+} */
+.my_login_btn{
+    background-color: #fff;
+    color: #2874F0;
+    margin-top: 7px;
+    height: 36px;
+    width: 100px;
+    
+    
+}
+.my_A{
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+@media only screen and (max-width:768px) {
+        /* Mobile Resultion */
+        .a_header_top{
+            height: 109px;
+        } 
+        .a_header_bottom{
+            margin-top: 109px !important;
+            height: 129px !important;
+        } 
+        .a_header_bottom .container{
+            max-width: 100% !important;
+        }
+        .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+            max-width: 98%;
+        }
+    }
+    @media (min-width: 1400px){
+        /* Desktop Resultion */
+        .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+            max-width: 1390px;
+        }
+    }
+@media only screen and (max-width:768px){
+  /* Mobile Resolution */
+    .a_headertop{
+        min-height: 109px;
+    }
+    .a_headerbottom{
+        margin-top: 110px;
+        height: 129px;
+    }
+    .a_headerbottom .container{
+      max-width: 100%;
+    } 
+    .container .container-lg .container-md .container-sm .container-xl .container-xxl{
+    max-width: 98%;
+  }
+}
+@media (min-width:1400px){
+  /* Desktop Resolution */
+  .container .container-lg .container-md .container-sm .container-xl .container-xxl{
+    max-width: 1390px;
+  }
+}
+    /* Abhishesk CSS */
+    @media only screen and (max-width: 600px) {
+                .a_cont_bottom_last {
+                    padding-left: 20px !important;
+                    padding-right: 20px !important;
+                }
+                .a_cont{
+                    width: 100% !important;
+                }
+                .header_top{
+                    width: 100%;
+                }
+                .header_bottom {
+                    width: 100% !important;
+
+                }
+                
+            }
+            
+
+
+            @media only screen and (max-width: 900px){
+                .a_cont_bottom_last {
+                    padding-left: 20px !important;
+                    padding-right: 20px !important;
+                }
+                
+            }
+            @media only screen and (max-width: 400px){
+                #demo2{
+                    width: 100% !important;
+                }
+                .a_mynewbtn{
+                    margin-top: 0px !important;
+                }
+                .a_cont{
+                    padding-left: 0px !important;
+                    padding-right: 10px !important;
+
+                }
+                .a_explor{
+                    width: 60%;
+                }
+                .a_ex1{
+                    display: none;
+                }
+               
+                
+            }
+            @media only screen and (max-width: 1100px){
+                
+                .a_cont{
+                    margin-left: 5px !important;
+                    margin-right: 5px !important;
+
+                }
+                
+            }
+            @media only screen and (max-width: 400px){
+                .a_ccontrol{
+                    width: 10%;
+                }
+                .a_ccontrol{
+                    display: none;
+                }
+
+            }
+            @media only screen and (max-width: 767px){
+                .a_footer_top_div{
+                    padding-left: 0px;
+                    border: none;
+                }
+            }
+            @media only screen and (min-width: 400px){
+                .myslider{
+                    display: none;
+                }
+            }
+
+    
