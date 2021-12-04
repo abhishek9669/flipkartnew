@@ -9,3 +9,5 @@
 5.account_addresses.html
 
 6.checkoyt.html
+
+7.order_details_test.html
