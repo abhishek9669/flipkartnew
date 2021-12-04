@@ -2,8 +2,10 @@
 
 2.account.html
 
-3 .my-chate.html
+3.my-chate.html
 
 4. notification.html
 
 5.account_addresses.html
+
+6.checkoyt.html

@@ -16,6 +16,28 @@
 		<link rel="stylesheet" type="text/css" href="css/jquery.simpleGallery.css">
 	
 		<link rel="stylesheet" href="css/style.css">
+		<style>
+			@media only screen and (max-width: 700px){
+                 .a_diliver{
+					 margin-left: 15px;
+					 margin-right: 15px;
+					
+				 }
+				 .a_dili{
+					margin-left: 15px;
+					 margin-right: 15px;
+					
+
+				 }
+				}
+				@media only screen and (max-width: 500px){
+                 .a_backtotop{
+					 /* margin-right: 200px !important; */
+					 margin-left: -50px !important;
+				 }
+				}
+
+		</style>
 	</head>
 	<body>
 		<!-- The Modal -->
@@ -53,7 +75,7 @@
 				</div>
 			</div>
 		</div>
-		<header>
+		<!-- <header>
 			<div class="header_top">
 				<div class="row">
 					<div class="col-md-1">
@@ -163,7 +185,7 @@
 							<li class="nav-item">
 								<a class="nav-link" href="#" data-toggle="modal" data-target="#myModal">Login &amp; Signup</a>
 							</li>
-							-->
+							--
 							<li class="nav-item">
 								<a class="nav-link have_chevron_mouseover" href="#">More <i class="fa fa-chevron-down"></i></a>
 								<ul class="nav flex-column submenu">
@@ -2314,8 +2336,8 @@
 					</li>
 				</ul>
 			</div>
-		</header>
-		<button  onclick="topFunction()" id="myBtn" title="Go to top" class="btn btn-outline-light bg-white backtotop shadow-sm"><i class="fa fa-chevron-up"></i> Back to top</button>
+		</header> -->
+		<button  onclick="topFunction()" id="myBtn" title="Go to top" class="btn btn-outline-light bg-white backtotop shadow-sm a_backtotop"><i class="fa fa-chevron-up"></i> Back to top</button>
 		<div class="overlay w-100 h-100 position-fixed text-center">
 			<i class="fa fa-circle-o-notch fa-spin fa-3x fa-fw text-primary"></i>
 			<span class="sr-only">Loading...</span>
@@ -2327,7 +2349,7 @@
 						<a class="btn bg-primary btn-link btn-block rounded-0 text-left text-white" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
 							<span class="badge badge-light mr-2 text-primary">1</span> LOGIN OR SIGNUP
 						</a>
-						<div class="collapse bg-white checkout_box show" id="collapseExample1">
+						<div class="collapse bg-white checkout_box show " id="collapseExample1">
 							<div class="row">
 								<div class="col-md-6">
 									<form class="loginform checkout_loginform">
@@ -2354,7 +2376,7 @@
 							</div>
 						</div>	
 					</div>
-					<div class="shadow-sm mb-2">
+					<div class="shadow-sm mb-2 a_diliver">
 						<a class="btn bg-primary btn-link btn-block rounded-0 text-left text-secondary" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
 							<span class="badge badge-light mr-2 text-primary">2</span> DELIVERY ADDRESS
 						</a>
@@ -2362,11 +2384,11 @@
 							asdfasdfas
 						</div>	
 					</div>
-					<div class="shadow-sm mb-2">
+					<div class="shadow-sm mb-2 a_diliver">
 						<a class="btn bg-primary btn-link btn-block rounded-0 text-left text-secondary" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">
 							<span class="badge badge-light mr-2 text-primary">3</span> ORDER SUMMARY
 						</a>
-						<div class="collapse bg-white checkout_box" id="collapseExample3">
+						<div class="collapse bg-white checkout_box a_diliver" id="collapseExample3">
 							<div class="row border border-left-0 border-right-0 border-top-0">
 								<div class="col-md-2 pt-4 pb-4 pr-0">
 									<div class="CartimgCont">
@@ -2402,8 +2424,8 @@
 							</div>
 						</div>	
 					</div>
-					<div class="shadow-sm mb-2">
-						<a class="btn bg-primary btn-link btn-block rounded-0 text-left text-secondary" data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample">
+					<div class="shadow-sm mb-2 a_dili">
+						<a class="btn bg-primary btn-link btn-block rounded-0 text-left text-secondary " data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample">
 							<span class="badge badge-light mr-2 text-primary">4</span> PAYMENT OPTIONS
 						</a>
 						<div class="collapse bg-white checkout_box" id="collapseExample4">
