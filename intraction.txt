@@ -11,3 +11,5 @@
 6.checkoyt.html
 
 7.order_details_test.html
+
+8. product_reviews.html
