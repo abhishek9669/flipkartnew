@@ -5,3 +5,5 @@
 3 .my-chate.html
 
 4. notification.html
+
+5.account_addresses.html
