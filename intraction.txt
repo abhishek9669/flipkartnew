@@ -13,3 +13,5 @@
 7.order_details_test.html
 
 8. product_reviews.html
+
+9.account_orders.html
