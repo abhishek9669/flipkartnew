@@ -17,3 +17,7 @@
 9.account_orders.html
 
 10.order_details.html
+
+11.test.htm( ..... extra)
+
+12.thankyou.html
