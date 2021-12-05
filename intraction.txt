@@ -21,3 +21,5 @@
 11.test.htm( ..... extra)
 
 12.thankyou.html
+
+13.wishlist.html
